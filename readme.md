@@ -1,7 +1,7 @@
 # 🚀 CalmMaa Tracker — Quick Start Guide
 
 ## 📥 Step 1: Download
-Save the attached **CalmMaa_Tracker.html** file to your computer.
+Save the attached **index.html** file to your computer.
 
 ## 🌐 Step 2: Open
 Double-click the file. It will instantly open in your web browser  
