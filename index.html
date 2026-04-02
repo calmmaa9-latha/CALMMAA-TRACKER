@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CalmMaa: 21-Day Emotional Mastery</title>
+    <title>CalmMaa: 31-Day Emotional Mastery</title>
     
     <!-- Modern Styling and Interactive Charts -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -36,7 +36,7 @@
         <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
             <div>
                 <h1 class="text-3xl font-bold tracking-tight">🌕 CALMMAA TRACKER</h1>
-                <p class="text-teal-100 text-xs uppercase tracking-widest mt-2 font-medium">21-Day Career & Emotional Mastery Journey</p>
+                <p class="text-teal-100 text-xs uppercase tracking-widest mt-2 font-medium">31-Day Career & Emotional Mastery Journey</p>
             </div>
             <div class="flex gap-3 mt-6 md:mt-0">
                 <button onclick="downloadBackup()" class="bg-teal-700 hover:bg-teal-600 px-5 py-2.5 rounded-lg text-sm font-semibold transition">Save Backup</button>
@@ -163,7 +163,7 @@
     <script>
         // Data Structure
         let appData = JSON.parse(localStorage.getItem('calmmaa_v5')) || {
-            days: Array.from({ length: 21 }, (_, i) => ({
+            days: Array.from({ length: 31 }, (_, i) => ({
                 id: i, date: '', zone: '', trigger: '', practiced: false, insight: ''
             })),
             reflections: ["", "", ""]
